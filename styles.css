@@ -35,15 +35,18 @@ body {
     align-items: center;
     background-color: var(--red-wine);
 }
+
 .right-nav a {
     color: var(--lightgrey);
     font-size: 1.2em;
     text-decoration: none;
     padding: 0.5em;
 }
+
 .right-nav a:hover {
     color: var(--sandy-brown);
 }
+
 .right-nav {
     display: flex;
     flex-direction: row;
@@ -51,6 +54,7 @@ body {
     margin-left: auto;
     gap: 30px;
 }
+
 #search-form {
     display: flex;
     align-items: center;
@@ -58,12 +62,14 @@ body {
     margin: 0 20px;
     max-width: 500px;
 }
+
 #search-form input {
     padding: 0.6em;
     border: 2px solid transparent;
     border-radius: 10px 0px 0px 10px;
     flex: 1;
 }
+
 #search-form button {
     padding: 0.6em;
     border: 2px solid transparent;
@@ -71,6 +77,7 @@ body {
     background-color: var(--dark-rose);
     color: var(--mint-green);
 }
+
 .product-nav {
     display: flex;
     flex-direction: column;
@@ -80,21 +87,25 @@ body {
     max-height: 0px;
     overflow: hidden;
 }
+
 .product-nav.open {
     max-height: 50vh;
     padding: 1em;
 }
+
 .product-nav a {
     color: var(--lightgrey);
     font-size: 1.2em;
     text-decoration: none;
     padding: 1em;
 }
+
 .product-nav a:hover,
 .nav-links a:hover {
     color: var(--sandy-brown);
     border-bottom: 2px solid var(--sandy-brown);
 }
+
 .home-banner {
     background-color: var(--mint-green);
     display: flex;
@@ -104,20 +115,23 @@ body {
     width: 100%;
     grid-column: span 2;
     min-height: 70vh;
-    background-image: url("dinoball.jpg");
+    background-image: url("Reebok_Royal.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .banner-text {
     background-color: var(--translucent-dark);
     /* padding: 1em; */
     color: var(--mint-green);
     text-align: center;
 }
+
 .banner-text h2 {
     font-size: 1.5em;
 }
+
 .banner-text a {
     background-color: var(--red-wine);
     color: var(--lightgrey);
@@ -127,27 +141,34 @@ body {
     padding: 0.5em;
     text-align: center;
 }
+
 .banner-text p {
     white-space: wrap;
 }
+
 .nav-button {
     background-color: transparent;
     border: 1px solid transparent;
     font-size: 2em;
     color: var(--mint-green);
 }
+
 /* cards */
 .card img {
     max-width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    background-size: cover;
 }
+
 .price::before {
     content: "$";
 }
+
 .card-content {
     padding: 0.5em;
 }
+
 .card-button {
     background-color: var(--red-wine);
     color: var(--mint-green);
@@ -157,6 +178,7 @@ body {
     min-width: 100%;
     text-align: center;
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -166,6 +188,7 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
 .bottom-banner {
     grid-column: span 2;
     display: flex;
@@ -174,23 +197,27 @@ body {
     background-color: var(--dark-rose);
     padding: 1em;
     width: 100%;
-    background-image: linear-gradient(45deg,var(--steel-blue),var(--red-wine));
+    background-image: linear-gradient(45deg, var(--steel-blue), var(--red-wine));
 }
+
 .footer-nav {
     display: flex;
     flex-direction: column;
 }
+
 .footer-nav a {
     padding: 1em;
     text-decoration: none;
     color: var(--dark-rose);
 }
+
 .main-footer {
     background-color: var(--dark-rose);
     color: var(--mint-green);
     padding: 2em 1em;
     font-size: 0.9em;
 }
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -198,23 +225,27 @@ body {
     flex: 1;
     margin-top: 10px;
 }
+
 .social-nav {
     display: flex;
     gap: 1em;
 }
+
 .social-nav a {
     color: var(--mint-green);
     font-size: 1.4em;
 }
+
 .hr {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: none;
-  border-style: inset;
-  border-width: 2px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: none;
+    border-style: inset;
+    border-width: 2px;
 }
+
 .footer-container {
     max-width: 1200px;
     margin: auto;
@@ -251,6 +282,7 @@ body {
 .footer-column a:hover {
     text-decoration: underline;
 }
+
 .newsletter-form {
     display: flex;
     flex-direction: column;
@@ -281,6 +313,7 @@ body {
     gap: 1em;
     text-align: center;
 }
+
 .sr-only {
     position: absolute;
     left: -10000px;
