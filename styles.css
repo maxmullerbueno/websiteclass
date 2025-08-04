@@ -1,18 +1,11 @@
-/* theme colours */
-:root {
-    --mint-green: rgb(255, 255, 255);
-    --steel-blue: rgb(255, 255, 255);
-    --sandy-brown: rgb(255, 255, 255);
-    --dark-rose: rgb(97, 0, 31);
+/*theme colours*/:root {
+    --white: rgb(255, 255, 255);
     --red-wine: rgb(97, 0, 31);
-    --grey: hsl(0, 0%, 51%);
-    --lightgrey: hsl(0, 0%, 100%);
-    --darkgrey: hsl(0, 0%, 20%);
     --translucent-dark: hsla(0, 0%, 20%, 0.6);
 }
 
 body {
-    background-color: var(--mint-green);
+    background-color: var(--white);
     margin: 0px;
     font-family: "Roboto", sans-serif;
 }
@@ -37,14 +30,14 @@ body {
 }
 
 .right-nav a {
-    color: var(--lightgrey);
+    color: var(--white);
     font-size: 1.2em;
     text-decoration: none;
     padding: 0.5em;
 }
 
 .right-nav a:hover {
-    color: var(--sandy-brown);
+    color: var(--white);
 }
 
 .right-nav {
@@ -74,8 +67,8 @@ body {
     padding: 0.6em;
     border: 2px solid transparent;
     border-radius: 0px 10px 10px 0px;
-    background-color: var(--dark-rose);
-    color: var(--mint-green);
+    background-color: var(--red-wine);
+    color: var(--white);
 }
 
 .product-nav {
@@ -94,7 +87,7 @@ body {
 }
 
 .product-nav a {
-    color: var(--lightgrey);
+    color: var(--white);
     font-size: 1.2em;
     text-decoration: none;
     padding: 1em;
@@ -102,12 +95,12 @@ body {
 
 .product-nav a:hover,
 .nav-links a:hover {
-    color: var(--sandy-brown);
-    border-bottom: 2px solid var(--sandy-brown);
+    color: var(--white);
+    border-bottom: 2px solid var(--white);
 }
 
 .home-banner {
-    background-color: var(--mint-green);
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +117,7 @@ body {
 .banner-text {
     background-color: var(--translucent-dark);
     /* padding: 1em; */
-    color: var(--mint-green);
+    color: var(--white);
     text-align: center;
 }
 
@@ -134,7 +127,7 @@ body {
 
 .banner-text a {
     background-color: var(--red-wine);
-    color: var(--lightgrey);
+    color: var(--white);
     text-decoration: none;
     font-size: 1.5em;
     display: block;
@@ -150,7 +143,7 @@ body {
     background-color: transparent;
     border: 1px solid transparent;
     font-size: 2em;
-    color: var(--mint-green);
+    color: var(--white);
 }
 
 /* cards */
@@ -171,7 +164,7 @@ body {
 
 .card-button {
     background-color: var(--red-wine);
-    color: var(--mint-green);
+    color: var(--white);
     padding: 0.5em;
     text-decoration: none;
     display: block;
@@ -194,10 +187,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--dark-rose);
+    background-color: var(--red-wine);
     padding: 1em;
     width: 100%;
-    background-image: linear-gradient(45deg, var(--steel-blue), var(--red-wine));
+    background-image: linear-gradient(45deg, var(--white), var(--red-wine));
 }
 
 .footer-nav {
@@ -208,12 +201,12 @@ body {
 .footer-nav a {
     padding: 1em;
     text-decoration: none;
-    color: var(--dark-rose);
+    color: var(--red-wine);
 }
 
 .main-footer {
-    background-color: var(--dark-rose);
-    color: var(--mint-green);
+    background-color: var(--red-wine);
+    color: var(--white);
     padding: 2em 1em;
     font-size: 0.9em;
 }
@@ -232,7 +225,7 @@ body {
 }
 
 .social-nav a {
-    color: var(--mint-green);
+    color: var(--white);
     font-size: 1.4em;
 }
 
@@ -270,11 +263,11 @@ body {
 .footer-column h4 {
     margin-bottom: 0.5em;
     font-size: 1em;
-    color: var(--mint-green);
+    color: var(--white);
 }
 
 .footer-column a {
-    color: var(--mint-green);
+    color: var(--white);
     text-decoration: none;
     margin-bottom: 0.3em;
 }
@@ -297,7 +290,7 @@ body {
 
 .newsletter-form button {
     padding: 0.5em;
-    background-color: var(--mint-green);
+    background-color: var(--white);
     border: none;
     color: var(--red-wine);
     border-radius: 5px;
@@ -305,7 +298,7 @@ body {
 }
 
 .footer-bottom {
-    border-top: 1px solid var(--mint-green);
+    border-top: 1px solid var(--white);
     padding-top: 1em;
     display: flex;
     flex-direction: column;
